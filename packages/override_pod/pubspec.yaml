@@ -1,0 +1,17 @@
+name: override_pod
+description: Override Pod for riverpod.
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  override_pod_annotation: ^0.0.1
+  build: ^2.4.1
+  source_gen: ^1.5.0
+  path: ^1.8.3
+  glob: ^2.1.2
+  code_builder: ^4.10.0
+  dart_style: ^2.3.6
+
+dev_dependencies:
+  very_good_analysis: ^5.1.0
