@@ -1,0 +1,8 @@
+name: override_pod_annotation
+description: Override Pod Annotation for riverpod.
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dev_dependencies:
+  very_good_analysis: ^5.1.0
