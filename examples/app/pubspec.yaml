@@ -1,0 +1,23 @@
+name: app
+description: Example App
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  hooks_riverpod: ^2.5.2
+  domain:
+  gateway:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^5.1.0
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true

@@ -4,4 +4,5 @@ linter:
   rules:
     sort_pub_dependencies: false
     public_member_api_docs: false
+    one_member_abstracts: false
     always_put_required_named_parameters_first: false

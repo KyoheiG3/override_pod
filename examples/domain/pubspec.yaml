@@ -1,0 +1,13 @@
+name: domain
+description: Domain Layer
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  riverpod_annotation: ^2.3.5
+
+dev_dependencies:
+  very_good_analysis: ^5.1.0
+  build_runner: ^2.4.9
+  riverpod_generator: ^2.4.0
