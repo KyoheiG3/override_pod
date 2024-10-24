@@ -9,7 +9,7 @@ import 'package:path/path.dart';
 import 'package:source_gen/source_gen.dart';
 
 class OverridePodsBuilder implements Builder {
-  static const _outputName = 'override_pods.gen.dart';
+  static const _outputName = 'override_pod.gen.dart';
 
   @override
   Map<String, List<String>> get buildExtensions {

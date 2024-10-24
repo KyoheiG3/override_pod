@@ -1,6 +1,6 @@
 builders:
-  override_pod:
-    import: "package:override_pod/builder.dart"
+  override_pod_generator:
+    import: "package:override_pod_generator/builder.dart"
     builder_factories: ["overridePodsBuilder"]
     build_extensions: { "$lib$": [".dart"] }
     auto_apply: dependents

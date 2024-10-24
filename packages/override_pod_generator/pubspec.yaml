@@ -1,5 +1,5 @@
-name: override_pod
-description: Override Pod for riverpod.
+name: override_pod_generator
+description: Override Pod generator for riverpod.
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
