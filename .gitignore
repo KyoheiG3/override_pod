@@ -45,4 +45,5 @@ app.*.map.json
 packages/**/pubspec.lock
 **/*.g.dart
 **/*.gen.dart
+**/pubspec_overrides.yaml
 **/coverage

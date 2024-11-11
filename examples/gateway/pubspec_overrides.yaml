@@ -1,8 +1,0 @@
-# melos_managed_dependency_overrides: usecase,override_pod_annotation,override_pod_generator
-dependency_overrides:
-  override_pod_annotation:
-    path: ../../packages/override_pod_annotation
-  override_pod_generator:
-    path: ../../packages/override_pod_generator
-  usecase:
-    path: ../usecase
