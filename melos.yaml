@@ -29,11 +29,12 @@ scripts:
     run: melos gen:all --no-select
 
   gen:all:
-    run: dart run build_runner build --delete-conflicting-outputs && rm test/pods.gen.dart
+    run: dart run build_runner build --delete-conflicting-outputs
     exec:
       concurrency: 8
     packageFilters:
       dependsOn: build_runner
+      ignore: override_pod_generator
 
   test:
     run: melos test:all --no-select
