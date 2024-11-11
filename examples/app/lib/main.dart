@@ -20,15 +20,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: MyPage(title: 'Flutter Demo Home Page'),
+      home: MyPage(),
     );
   }
 }
 
 class MyPage extends ConsumerWidget {
-  const MyPage({super.key, required this.title});
-
-  final String title;
+  const MyPage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -37,7 +35,6 @@ class MyPage extends ConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(title),
       ),
       body: Center(
         child: Column(
