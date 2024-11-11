@@ -1,3 +1,13 @@
+targets:
+  $default:
+    builders:
+      override_pod_generator:
+        options:
+          input_file: test/pods/**.dart
+          output_file: ../test/pods.gen.dart
+          output_value_name: pods
+          annotation_class: package:override_pod_generator/src/annotation.dart#TestPod
+
 builders:
   override_pod_generator:
     import: "package:override_pod_generator/builder.dart"

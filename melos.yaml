@@ -8,6 +8,12 @@ ide:
   intellij: false
 
 command:
+  bootstrap:
+    hooks:
+      post:
+        run: melos gen
+        description: melos gen
+
   clean:
     hooks:
       post:
@@ -18,3 +24,25 @@ scripts:
   get:
     run: melos exec -- flutter pub get && melos gen
     description: flutter pub get && melos gen
+
+  gen:
+    run: melos gen:all --no-select
+
+  gen:all:
+    run: dart run build_runner build --delete-conflicting-outputs
+    exec:
+      concurrency: 8
+      orderDependents: true
+    packageFilters:
+      dependsOn: build_runner
+
+  test:
+    run: melos test:all --no-select
+
+  test:all:
+    run: dart run build_runner build --delete-conflicting-outputs && flutter test --update-goldens --coverage && rm test/pods.gen.dart
+    exec:
+      concurrency: 8
+    packageFilters:
+      dirExists:
+        - test
