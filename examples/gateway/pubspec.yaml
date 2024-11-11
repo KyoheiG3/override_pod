@@ -1,5 +1,5 @@
 name: gateway
-description: Gateway Layer
+description: Gateway for infrastructure Layer
 
 environment:
   sdk: '>=3.3.0 <4.0.0'

@@ -1,5 +1,7 @@
 name: app
-description: Example App
+description: Application
+
+version: 0.0.1
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
@@ -9,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-  hooks_riverpod: ^2.5.2
+  flutter_riverpod: ^2.5.2
   usecase:
   gateway:
 
