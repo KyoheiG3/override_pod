@@ -44,3 +44,4 @@ app.*.map.json
 
 packages/**/pubspec.lock
 **/*.g.dart
+**/coverage
