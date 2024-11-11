@@ -6,3 +6,10 @@ linter:
     public_member_api_docs: false
     one_member_abstracts: false
     always_put_required_named_parameters_first: false
+
+analyzer:
+  errors:
+    todo: ignore
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.gen.dart"

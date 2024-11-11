@@ -34,7 +34,6 @@ scripts:
       concurrency: 8
     packageFilters:
       dependsOn: build_runner
-      ignore: override_pod_generator
 
   test:
     run: melos test:all --no-select
