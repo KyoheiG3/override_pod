@@ -14,8 +14,6 @@ dependencies:
   gateway:
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
   very_good_analysis: ^5.1.0
   build_runner: ^2.4.7
 
