@@ -6,6 +6,6 @@ part 'user.g.dart';
 @riverpod
 UserRepository userRepository(_) => throw UnimplementedError();
 
-abstract class UserRepository {
+abstract interface class UserRepository {
   Future<User?> getUser();
 }
