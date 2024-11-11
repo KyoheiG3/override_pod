@@ -1,5 +1,5 @@
-name: domain
-description: Domain Layer
+name: usecase
+description: Usecase for domain Layer
 
 environment:
   sdk: '>=3.3.0 <4.0.0'

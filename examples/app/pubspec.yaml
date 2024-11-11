@@ -10,7 +10,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   hooks_riverpod: ^2.5.2
-  domain:
+  usecase:
   gateway:
 
 dev_dependencies:

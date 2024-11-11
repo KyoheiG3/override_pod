@@ -7,8 +7,8 @@ environment:
 dependencies:
   riverpod_annotation: ^2.3.5
   riverpod: ^2.5.1
+  usecase:
   override_pod_annotation:
-  domain:
 
 dev_dependencies:
   very_good_analysis: ^5.1.0

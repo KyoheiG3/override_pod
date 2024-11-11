@@ -1,5 +1,5 @@
-import 'package:domain/domain.dart';
 import 'package:override_pod_annotation/override_pod_annotation.dart';
+import 'package:usecase/usecase.dart';
 
 @overridePod
 final pod = userRepositoryProvider.overrideWith((_) => UserRepositoryImpl());

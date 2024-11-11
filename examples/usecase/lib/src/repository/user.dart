@@ -1,5 +1,5 @@
-import 'package:domain/src/model/user.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
+import 'package:usecase/src/model.dart';
 
 part 'user.g.dart';
 
