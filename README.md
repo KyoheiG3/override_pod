@@ -48,7 +48,7 @@ Super cool!
 
 ## Getting started
 
-Add the following to your `pubspec.yaml`:
+Add the following to your `foo/pubspec.yaml`:
 
 ```yaml
 dependencies:
@@ -61,7 +61,7 @@ dev_dependencies:
 
 ## Usage
 
-1. Define variables using annotations. For example, in `lib/src/repository/foo.dart`:
+1. Define variables using annotations. For example, in `foo/lib/src/repository/foo.dart`:
 
 ```dart
 import 'package:override_pod_annotation/override_pod_annotation.dart';
@@ -81,15 +81,16 @@ class FooRepositoryImpl implements FooRepository {
 $ flutter pub run build_runner build
 ```
 
-3. Use the generated code to override pods. For example, in `lib/main.dart`:
+3. Import the generated file and use the generated code to override the pod. For example, in `lib/main.dart`:
 
 ```dart
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:foo/override_pod.gen.dart';
 
 void main() {
     runApp(
         ProviderScope(
-            overrides: packagePodOverrides,
+            overrides: fooPodOverrides,
             child: const MyApp(),
         ),
     );
