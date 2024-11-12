@@ -10,7 +10,7 @@ targets:
 
 builders:
   override_pod_generator:
-    import: "package:override_pod_generator/builder.dart"
+    import: "package:override_pod_generator/override_pod_generator.dart"
     builder_factories: ["overridePodsBuilder"]
     build_extensions: { "$lib$": [".dart"] }
     auto_apply: dependents
