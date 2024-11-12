@@ -46,7 +46,7 @@ void main() {
 
 Super cool!
 
-## Installation
+## Getting started
 
 Add the following to your `pubspec.yaml`:
 
@@ -131,6 +131,20 @@ targets:
 
 - Specifies the annotation class.
 - The default is `OverridePod`.
+
+## Build
+
+If you build the project, try running the following command:
+
+```sh
+$ make bootstrap
+```
+
+And, you can run the tests with the following command:
+
+```sh
+$ melos test
+```
 
 ## License
 

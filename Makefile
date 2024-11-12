@@ -2,8 +2,8 @@
 gen:
 	melos gen
 
-.PHONY: setup/pub
-setup/pub:
+.PHONY: bootstrap
+bootstrap:
 	dart pub global activate melos
 	dart pub get
 	melos bootstrap

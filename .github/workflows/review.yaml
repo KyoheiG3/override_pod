@@ -22,7 +22,7 @@ jobs:
           cache: true
 
       - name: Setup pub
-        run: make setup/pub
+        run: make bootstrap
 
       - name: Dart Analyzer
         uses: invertase/github-action-dart-analyzer@v3
