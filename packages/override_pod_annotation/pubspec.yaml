@@ -1,5 +1,9 @@
 name: override_pod_annotation
 description: Override Pod Annotation for riverpod.
+version: 1.0.0
+repository: https://github.com/KyoheiG3/override_pod
+documentation: https://github.com/KyoheiG3/override_pod
+issue_tracker: https://github.com/KyoheiG3/override_pod/issues
 
 environment:
   sdk: ">=3.3.0 <4.0.0"

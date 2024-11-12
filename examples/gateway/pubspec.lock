@@ -295,14 +295,14 @@ packages:
       path: "../../packages/override_pod_annotation"
       relative: true
     source: path
-    version: "0.0.0"
+    version: "1.0.0"
   override_pod_generator:
     dependency: "direct dev"
     description:
       path: "../../packages/override_pod_generator"
       relative: true
     source: path
-    version: "0.0.0"
+    version: "1.0.0"
   package_config:
     dependency: transitive
     description:

@@ -315,7 +315,7 @@ packages:
       path: "../../packages/override_pod_annotation"
       relative: true
     source: path
-    version: "0.0.0"
+    version: "1.0.0"
   package_config:
     dependency: transitive
     description:
