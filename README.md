@@ -1,10 +1,10 @@
-# override_pod_generator
+# override_pod
 
-The `override_pod_generator` package is a tool for generating `Override` variables for riverpod. This package uses annotations to automatically aggregate defined `Override` variables into a single array, variableize them, and output them to a generated file.
+The `override_pod` package is a tool for generating `Override` variables for riverpod. This package uses annotations to automatically aggregate defined `Override` variables into a single array, variableize them, and output them to a generated file.
 
 ## Overview
 
-When overriding riverpod's `Provider`, you need to set `Override` variables to override the `Provider` in the `overrides` property of `ProviderScope`. If you override many `Providers`, it can be cumbersome to set many variables, but using `override_pod_generator` can alleviate that hassle.
+When overriding riverpod's `Provider`, you need to set `Override` variables to override the `Provider` in the `overrides` property of `ProviderScope`. If you override many `Providers`, it can be cumbersome to set many variables, but using `override_pod` can alleviate that hassle.
 
 ### Before
 
